@@ -49,6 +49,9 @@ nav ul{
     justify-content: center;
 }
 /* shared style */
+.text-title{
+    text-align: center;
+}
 .secondary-bg{
     background: #FFF8F3;
 }
@@ -99,9 +102,10 @@ nav ul{
     border-radius: 10px;
     text-align: center;
     padding: 131px 157px;
-   margin: 130px
+   /* margin: 130px */
 }
 .about-items{
+    /* width: 700px; */
     display: flex;
     justify-content: space-around;
     background: #FFFFFF;
@@ -118,4 +122,51 @@ nav ul{
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+main section{
+   margin: 130px;
+}
+/* what about section starts */
+.skills{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+.skills-container{
+    padding: 104px 33px 30px 30px;
+    box-shadow: 0 6px 50px 0 cornsilk;
+}
+/* education and exprence */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resumn-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+   margin-bottom: 20px;
+}
+.experience-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #757575;
+}
+
+.text-title .but{
+    margin-top: 50px;
+}
+.resume-container hr{
+    margin: 30px 5px;
 }
